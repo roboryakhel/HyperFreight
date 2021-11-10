@@ -1,0 +1,28 @@
+
+jobapp container  {
+    alighn items center
+    bg is white
+    dispay flex
+    border box
+    min height 66vh
+    position relative
+
+}
+
+
+jobapp wrapper {
+    padding 6.6 vmax 4vw 6.6vmax 4vw 
+    margin o auto
+    justify contebnt center;
+    boxsizing content-box;
+    display flex;
+    width 100%;
+    position relative;
+}
+
+jobapp {
+    width 50%
+;
+displaty block
+
+}

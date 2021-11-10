@@ -1,0 +1,50 @@
+export const threeColRow = {
+    homeObj1 : {
+        id: 'about',
+        lightBg: true,
+        lightText: false,
+        lightTextDesc: true,
+        topLine: 'Premium Bank',
+        headline: 'Unilmited trx with zero fees',
+        description: 'get acces to our excititn blah blahy text lkasd d dios jf lkasdfj lsdflksdf jsdfj',
+        buttonLabel: 'Get Started',
+        imgStart: false,
+        img: require('../../Images/contact.jpg').default,
+        alt: 'Car',
+        dark: true,
+        primary: true,
+        darkText: true
+    },
+    homeObj2 : {
+        id: 'about',
+        lightBg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'Second part',
+        headline: 'Lorem ipsum dolor sit amet',
+        description: 'get acces to our excititn blah blahy text lkasd d dios jf lkasdfj lsdflksdf jsdfj',
+        buttonLabel: 'Get Started',
+        imgStart: false,
+        img: require('../../Images/Img.jpg').default,
+        alt: 'Car',
+        dark: true,
+        primary: true,
+        darkText: false
+    },
+    homeObj3 : {
+        id: 'about',
+        lightBg: false,
+        lightText: true,
+        lightTextDesc: true,
+        topLine: 'Second part',
+        headline: 'Lorem ipsum dolor sit amet',
+        description: 'get acces to our excititn blah blahy text lkasd d dios jf lkasdfj lsdflksdf jsdfj',
+        buttonLabel: 'Get Started',
+        imgStart: false,
+        img: require('../../Images/Img.jpg').default,
+        alt: 'Car',
+        dark: true,
+        primary: true,
+        darkText: false
+    }
+}
