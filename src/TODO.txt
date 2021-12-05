@@ -1,0 +1,13 @@
+Contact Page needs contact info
+
+
+hold off on services page for now
+
+store registered emailaddresses in mongodb to prevent spamming
+and also send email of newly registered emailaddresses when ppl register.
+
+join page input needvalues added to state -- fix this  issue
+
+
+
+Create a route that all blank or placeholder links got to, like thos links in the footer.
