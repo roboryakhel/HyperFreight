@@ -3,8 +3,7 @@ import styled from 'styled-components'
 
 export const MapOuter = styled.div`
     width:100%;
-
-
+    background-color:#25323a;
 `
 
 export const MapWrapper = styled.div`
@@ -13,8 +12,8 @@ export const MapWrapper = styled.div`
     flex-direction:row; 
     width:60%;
     margin:auto;
-    margin-top:50px;
-    margin-bottom:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 `
 
 export const MapContainer = styled.div`
@@ -40,5 +39,8 @@ export const ContactInfo = styled.div`
 
 export const Area = styled.h2`
     padding:0px;
+    color:white;
 `
-export const CInfo = styled.p``
+export const CInfo = styled.p`
+    color:white;
+`

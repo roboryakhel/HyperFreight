@@ -1,10 +1,11 @@
 export const homeObj1 = {
-    id: 'about',
+    id: 'homeQuote',
     lightBg: false,
     lightText: false,
+    lightTextHeadline:true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unilmited trx with zero fees',
+    topLine: 'Get a Quote',
+    headline: 'Contact us for a free quote',
     description: 'get acces to our excititn blah blahy text lkasd d dios jf lkasdfj lsdflksdf jsdfj',
     buttonLabel: 'Get Started',
     imgStart: false,
@@ -16,13 +17,14 @@ export const homeObj1 = {
 }
 
 export const homeObj2 = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Second part',
-    headline: 'Lorem ipsum dolor sit amet',
-    description: 'get acces to our excititn blah blahy text lkasd d dios jf lkasdfj lsdflksdf jsdfj',
+    id: 'DryVan',
+    lightBg: true,
+    lightText: false,
+    lightTextHeadline:false,
+    lightTextDesc: false,
+    topLine: 'Dry Van',
+    headline: 'Dry Van Transportation',
+    description: 'HyperFreight Inc. provides 53’ Dry Van transportation solutions throughout North America, accommodating for Full Truck Load (“FTL”) and Less Than Truckload (“LTL”) customer requirements.',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../Images/Img.jpg').default,
@@ -49,3 +51,4 @@ export const aboutObj1 = {
     primary: true,
     darkText: true
 }
+

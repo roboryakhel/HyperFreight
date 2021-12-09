@@ -4,11 +4,9 @@ import Sidebar from '../Components/Sidebar';
 import Navbar from '../Components/Navbar';
 import HeroSection from '../Components/HeroSection';
 import InfoSection from '../Components/InfoSection';
-import InfoSection3 from '../Components/InfoSection3';
-import { homeObj1, homeObj2 } from '../Components/InfoSection/Data';
-import { threeColRow } from '../Components/InfoSection3/Data';
+import { homeObj1} from '../Components/InfoSection/Data';
 import TextCardBig from '../Components/TextCardBig';
-import BoardSection from '../Components/BoardSection';
+import DryVanTransportation from '../Components/DryVan';
 import Footer from '../Components/Footer';
   
 const Home = () => {
@@ -18,16 +16,19 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
 
+  const TextCard1 = {
+    heading: "Who We Are",
+    desc1: "At HyperFreight Inc. our goal as your trusted logistics partner is to ensure that we deliver your promises on time.",
+    desc2: "Our management philosophy incorporates smart systems in our daily operations to capture real-time information in order to create efficient and cost-effective logistics solutions for our valued customers."
+  }
+
   return (
     <>  
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
       <HeroSection />
-      {/* {console.log(home33)} */}
-      {/* <InfoSection {...homeObj2} /> */}
-      {/* <InfoSection3 {...threeColRow} /> */}
-      <TextCardBig />
-      <BoardSection />
+      <TextCardBig {...TextCard1}/>
+      <DryVanTransportation/>
       <InfoSection {...homeObj1} />
       <Footer />
     </>

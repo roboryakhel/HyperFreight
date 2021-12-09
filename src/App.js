@@ -27,7 +27,7 @@ function App() {
           <Join/>
         </Route>
         <Route path='/contact'>
-          <Contact/>
+          <About/>
         </Route>
       </Switch>
     </Router>

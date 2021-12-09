@@ -100,3 +100,8 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `
+
+export const HFSpan = styled.span`
+    color:#5befe0;
+
+`

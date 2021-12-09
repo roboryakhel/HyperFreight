@@ -11,12 +11,11 @@ export const Locations = ({ location, zoomLevel }) => {
             <MapWrapper>
             <ContactInfoContainer>
                     <ContactInfo>
-                        <Area>Locations</Area>
-                        <CInfo>We are located on the hear tof blah blah blah</CInfo>
+                        <Area>Head Office:</Area>
                         <br/>
-                        <CInfo>290 Adelaide West, XXX XXX</CInfo>
-                        <CInfo>905 583 2391</CInfo>
-                        <CInfo>johndoe@email.com</CInfo>
+                        <CInfo>800-1701 Hollis St. Halifax, Nova Scotia</CInfo>
+                        <CInfo>B3J 3M8</CInfo>
+                        <CInfo>info@hyperfreightinc.com</CInfo>
                     </ContactInfo>
                 </ContactInfoContainer>
                 <MapContainer>

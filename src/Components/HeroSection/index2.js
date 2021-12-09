@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { HeroContainer, HeroBG, ImageBG, HeroContent, HeroH1, HeroP, Img } from './HeroElements2'
-import Logo from '../../Images/Navbar_logo.png'
+// import Logo from '../../Images/Nav_logo.png'
 
 const HeroSection = ({image, h1, par}) => {
 
@@ -12,7 +12,7 @@ const HeroSection = ({image, h1, par}) => {
             <HeroContent>
                 <HeroH1>{h1}</HeroH1>
                 <HeroP>{par}</HeroP>
-                <Img src={Logo}></Img>
+                {/* <Img src={Logo}></Img> */}
             </HeroContent>
         </HeroContainer>
     )

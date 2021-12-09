@@ -15,12 +15,9 @@ const BoardSection = () => {
                         </Column1>
                         <Column2>
                             <TextWrap>
-                                <Title lightText={false}>Practice Makes Perfect</Title>
+                                <Title lightText={false}>Dry Van Transportation</Title>
                                 <Desc darkText={true}>
-                                    We know about your hectic schedule. We also know the only way
-                                     you truly understand a subject is by practicing it in a real 
-                                     environment. This is why we’ve documentation and certifications 
-                                     for customs satisfaction like CTPAT, FAST, Bonded carrier. Contact us for Details.
+                                HyperFreight Inc. provides 53’ Dry Van transportation solutions throughout North America, accommodating for Full Truck Load (“FTL”) and Less Than Truckload (“LTL”) customer requirements
                                 </Desc>
                             </TextWrap>
                         </Column2>

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${ ({lightBg}) => (lightBg ? '#f9f9f9' : '#010606') };
+    background: ${ ({lightBg}) => (lightBg ? '#f9f9f9' : '#25323a') };
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -46,7 +46,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -56,15 +56,16 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 `;
 
 export const Heading  = styled.h1`
-    margin-bottom:24px;
+    margin-bottom:84px;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({lightText})=>(lightText ? '#f7f8fa':'#010606')};
+    color: ${({lightTextHeadline})=>(lightTextHeadline ? '#f7f8fa':'#010606')};
 
     @media screen and (max-width:480px) {
         font-size:32px;

@@ -54,12 +54,13 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 60px 30px 60px 30px;
-    background-color: rgba(30,30,30,0.4);
+    // background-color: rgba(30,30,30,0.4);
     border-radius: 10px;
 `;
 
 export const HeroH1 = styled.h1`
-    color: #fff;
+    // color: #fff;
+    color: #5befe0;
     font-size: 48px;
     text-align: center;
 
@@ -75,9 +76,10 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
+    line-height:40px;
     @media screen and (max-width: 768px) {
         font-size: 20px;
     }
